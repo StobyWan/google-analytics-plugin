@@ -1,31 +1,39 @@
 {
-  "name": "cordova-plugin-google-analytics",
+  "name": "cordova-plugin-google-analytics-bs",
   "version": "1.8.3",
-  "description": "Google Universal Analytics Plugin",
+  "description": "Simple tracking (screens/events) for Google Analytics SDK 3.14 (iOS), SDK 4.0 (Android), Browsers and WP8",
   "cordova": {
-    "id": "cordova-plugin-google-analytics",
+    "id": "cordova-plugin-google-analytics-bs",
     "platforms": [
-      "android",
+      "browser",
       "ios",
-      "windows",
-      "browser"
+      "android",
+      "wp8",
+      "windows"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danwilson/google-analytics-plugin.git"
+    "url": "git+https://github.com/StobyWan/google-analytics-plugin.git"
   },
   "keywords": [
-    "cordova",
-    "googleanalytics",
     "ecosystem:cordova",
-    "cordova-android",
+    "cordova-browser",
     "cordova-ios",
-    "analytics",
-    "google",
-    "universal",
-    "universalanalytics"
+    "cordova-android",
+    "cordova-wp8",
+    "cordova-windows"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
   ],
   "author": "Dan Wilson",
-  "license": "MIT"
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/StobyWan/google-analytics-plugin/issues"
+  },
+  "homepage": "https://github.com/StobyWan/google-analytics-plugin#readme"
 }
